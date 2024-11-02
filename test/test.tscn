@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg4nche7ii8qe"]
+
+[ext_resource type="PackedScene" uid="uid://cevg1t4wme3ys" path="res://游戏场景/角色类场景/近战敌人/近战敌人.tscn" id="1_5a6hc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hkigm"]
+size = Vector2(839.969, 54)
+
+[node name="Test" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(593, 554)
+shape = SubResource("RectangleShape2D_hkigm")
+
+[node name="atkTest" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1510, 475)
+shape = SubResource("RectangleShape2D_hkigm")
+
+[node name="近战敌人" parent="." instance=ExtResource("1_5a6hc")]
+position = Vector2(499, 500)

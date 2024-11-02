@@ -1,0 +1,346 @@
+[gd_scene load_steps=66 format=3 uid="uid://cevg1t4wme3ys"]
+
+[ext_resource type="Texture2D" uid="uid://q8c4hna63x2c" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_1.png" id="1_6wrao"]
+[ext_resource type="Texture2D" uid="uid://bv1hbrbrpjr77" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_2.png" id="2_4rtts"]
+[ext_resource type="Texture2D" uid="uid://cut3e5ujn5nyj" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_3.png" id="3_f10bt"]
+[ext_resource type="Texture2D" uid="uid://bsrp5ioyv2t0o" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_4.png" id="4_g4gp1"]
+[ext_resource type="Texture2D" uid="uid://5p6xqkaqpqgb" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_5.png" id="5_k0io6"]
+[ext_resource type="Texture2D" uid="uid://drtyx3mwawedl" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_6.png" id="6_5h1l4"]
+[ext_resource type="Texture2D" uid="uid://dt8u1gn52nwbe" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_7.png" id="7_o6ff3"]
+[ext_resource type="Texture2D" uid="uid://qyfph781l1dd" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_8.png" id="8_km2cb"]
+[ext_resource type="Texture2D" uid="uid://ctc77jy1ywhi" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_9.png" id="9_1usr0"]
+[ext_resource type="Texture2D" uid="uid://cs10ebr0axp2w" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_10.png" id="10_1fcfo"]
+[ext_resource type="Texture2D" uid="uid://b6qth54y6ulve" path="res://游戏素材资源/近战/png/fire_knight/05_1_atk/1_atk_11.png" id="11_b05pf"]
+[ext_resource type="Texture2D" uid="uid://sxxpghh8ns6e" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_1.png" id="12_6bu6h"]
+[ext_resource type="Texture2D" uid="uid://ddla77osxw7uh" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_2.png" id="13_6vlug"]
+[ext_resource type="Texture2D" uid="uid://bnpqnkfsm0wgb" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_3.png" id="14_hctb4"]
+[ext_resource type="Texture2D" uid="uid://5w0pjm8aa71u" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_4.png" id="15_yva43"]
+[ext_resource type="Texture2D" uid="uid://cyexx2irskjjr" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_5.png" id="16_dpyr7"]
+[ext_resource type="Texture2D" uid="uid://darmpc38xitg2" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_6.png" id="17_gr242"]
+[ext_resource type="Texture2D" uid="uid://cgpjjunbsbgdf" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_7.png" id="18_3yjgd"]
+[ext_resource type="Texture2D" uid="uid://dmq3naoro87cg" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_8.png" id="19_1b3ee"]
+[ext_resource type="Texture2D" uid="uid://cud386qb8hxr0" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_9.png" id="20_ltwce"]
+[ext_resource type="Texture2D" uid="uid://cvu3qhu6od0jc" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_10.png" id="21_p3klq"]
+[ext_resource type="Texture2D" uid="uid://d0d2sdtsmn0tx" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_11.png" id="22_r6m1c"]
+[ext_resource type="Texture2D" uid="uid://bb7pyq3s77e8y" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_12.png" id="23_2cl3j"]
+[ext_resource type="Texture2D" uid="uid://djk8fxo7g03xn" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_13.png" id="24_ey782"]
+[ext_resource type="Texture2D" uid="uid://cwiapq0kkk8mi" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_14.png" id="25_0axne"]
+[ext_resource type="Texture2D" uid="uid://bho8a5lo6ujn4" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_15.png" id="26_yf5eu"]
+[ext_resource type="Texture2D" uid="uid://8g2mrvohm1mn" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_16.png" id="27_mp3xs"]
+[ext_resource type="Texture2D" uid="uid://tga4bik50msb" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_17.png" id="28_g0auq"]
+[ext_resource type="Texture2D" uid="uid://byiurp3r0kcjf" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_18.png" id="29_ore7x"]
+[ext_resource type="Texture2D" uid="uid://cb8ecgyqriusw" path="res://游戏素材资源/近战/png/fire_knight/06_2_atk/2_atk_19.png" id="30_vawu7"]
+[ext_resource type="Texture2D" uid="uid://cxper7pska2nv" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_1.png" id="31_4uw00"]
+[ext_resource type="Texture2D" uid="uid://dcveqw81vsos8" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_2.png" id="32_uwgh1"]
+[ext_resource type="Texture2D" uid="uid://cwgr1qefn7hv2" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_3.png" id="33_n0pr4"]
+[ext_resource type="Texture2D" uid="uid://cxta2iaiwnabg" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_4.png" id="34_2wvg8"]
+[ext_resource type="Texture2D" uid="uid://pj7oslsryqk3" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_5.png" id="35_kcbnd"]
+[ext_resource type="Texture2D" uid="uid://x3pve0wbeeh1" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_6.png" id="36_c7gjt"]
+[ext_resource type="Texture2D" uid="uid://bewk23ktkj4yd" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_7.png" id="37_0exr3"]
+[ext_resource type="Texture2D" uid="uid://bvtxxwhciywxg" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_8.png" id="38_hcgnu"]
+[ext_resource type="Texture2D" uid="uid://p1gfna31d4f5" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_9.png" id="39_qhap0"]
+[ext_resource type="Texture2D" uid="uid://owgy78rvj7xt" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_10.png" id="40_ov83r"]
+[ext_resource type="Texture2D" uid="uid://bsusmr0jcolck" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_11.png" id="41_uxti0"]
+[ext_resource type="Texture2D" uid="uid://dunopj8au7elq" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_12.png" id="42_we8we"]
+[ext_resource type="Texture2D" uid="uid://chml5o0gd7utg" path="res://游戏素材资源/近战/png/fire_knight/11_death/death_13.png" id="43_186lo"]
+[ext_resource type="Texture2D" uid="uid://cpyux7wjr81gk" path="res://游戏素材资源/近战/png/fire_knight/10_take_hit/take_hit_1.png" id="44_ddadj"]
+[ext_resource type="Texture2D" uid="uid://bvmm41gchbpml" path="res://游戏素材资源/近战/png/fire_knight/10_take_hit/take_hit_2.png" id="45_6e2qt"]
+[ext_resource type="Texture2D" uid="uid://dcktvs0acoqni" path="res://游戏素材资源/近战/png/fire_knight/10_take_hit/take_hit_3.png" id="46_t0b32"]
+[ext_resource type="Texture2D" uid="uid://8spholpdjr2b" path="res://游戏素材资源/近战/png/fire_knight/10_take_hit/take_hit_4.png" id="47_58sk0"]
+[ext_resource type="Texture2D" uid="uid://bhwndtalxe87n" path="res://游戏素材资源/近战/png/fire_knight/10_take_hit/take_hit_5.png" id="48_5bwpn"]
+[ext_resource type="Texture2D" uid="uid://ro6bn8f5sg46" path="res://游戏素材资源/近战/png/fire_knight/10_take_hit/take_hit_6.png" id="49_81q8c"]
+[ext_resource type="Texture2D" uid="uid://cp3rx0d1bqjhj" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_1.png" id="50_jn1le"]
+[ext_resource type="Texture2D" uid="uid://dxmffuggmhgmg" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_2.png" id="51_owr6x"]
+[ext_resource type="Texture2D" uid="uid://cnfl1451day1h" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_3.png" id="52_eo775"]
+[ext_resource type="Texture2D" uid="uid://c84lyoe180hxx" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_4.png" id="53_s15yo"]
+[ext_resource type="Texture2D" uid="uid://c18gro3c54tak" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_5.png" id="54_rxgwo"]
+[ext_resource type="Texture2D" uid="uid://svmmpvermogj" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_6.png" id="55_q1pbn"]
+[ext_resource type="Texture2D" uid="uid://b4ivhb36flyfl" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_7.png" id="56_jsai4"]
+[ext_resource type="Texture2D" uid="uid://bh5ly47w1ahyb" path="res://游戏素材资源/近战/png/fire_knight/02_run/run_8.png" id="57_whawy"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战敌人/状态机/状态管理器.gd" id="58_nfsr6"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战敌人/状态机/行走状态.gd" id="59_dft0y"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战敌人/状态机/攻击状态.gd" id="60_fvcf0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wivyf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6wrao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_4rtts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f10bt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_g4gp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_k0io6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5h1l4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o6ff3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_km2cb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1usr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_1fcfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_b05pf")
+}],
+"loop": false,
+"name": &"atk1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_6bu6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_6vlug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hctb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_yva43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_dpyr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_gr242")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_3yjgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_1b3ee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ltwce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_p3klq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_r6m1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2cl3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ey782")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_0axne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_yf5eu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_mp3xs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_g0auq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ore7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_vawu7")
+}],
+"loop": false,
+"name": &"atk2",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_4uw00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_uwgh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_n0pr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_2wvg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_kcbnd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_c7gjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_0exr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_hcgnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_qhap0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ov83r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_uxti0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_we8we")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_186lo")
+}],
+"loop": false,
+"name": &"death",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("44_ddadj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_6e2qt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_t0b32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_58sk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_5bwpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_81q8c")
+}],
+"loop": false,
+"name": &"get_atk",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("50_jn1le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_owr6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_eo775")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_s15yo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_rxgwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_q1pbn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_jsai4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_whawy")
+}],
+"loop": true,
+"name": &"move",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1u4qe"]
+size = Vector2(12, 41.5)
+
+[sub_resource type="Animation" id="Animation_hfw76"]
+resource_name = "run"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"move", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_jlxdr"]
+resource_name = "tak1"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"atk1", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6ea5u"]
+_data = {
+"run": SubResource("Animation_hfw76"),
+"tak1": SubResource("Animation_jlxdr")
+}
+
+[node name="近战敌人" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_wivyf")
+animation = &"atk1"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -0.75)
+shape = SubResource("RectangleShape2D_1u4qe")
+
+[node name="RightDownCast" type="RayCast2D" parent="."]
+position = Vector2(20, 0)
+
+[node name="LeftDownCast2" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="AttackCheck" type="Node2D" parent="."]
+
+[node name="A1" type="Area2D" parent="AttackCheck"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A1"]
+polygon = PackedVector2Array(21, 19, 22, -13, 16, -28, -1, -40, 0, -62, 29, -57, 54, -24, 54, 15, 44, 23, 20, 23)
+
+[node name="A2l" type="Area2D" parent="AttackCheck"]
+
+[node name="A2r" type="Area2D" parent="AttackCheck"]
+
+[node name="FSM" type="Node" parent="."]
+script = ExtResource("58_nfsr6")
+
+[node name="Run" type="Node" parent="FSM"]
+script = ExtResource("59_dft0y")
+
+[node name="Atk" type="Node" parent="FSM"]
+script = ExtResource("60_fvcf0")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_6ea5u")
+}

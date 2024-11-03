@@ -15,6 +15,7 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 func enter():
 	ani.play("run")
 	
+	
 func do():
 	if !is_instance_valid($"../../RightDownCast".get_collider()):
 		direct=Vector2.LEFT
@@ -22,10 +23,17 @@ func do():
 	elif !is_instance_valid($"../../LeftDownCast2".get_collider()):
 		direct=Vector2.RIGHT
 		$"../../AnimatedSprite2D".flip_h=false
+		
 	var arr:Array=a1.get_overlapping_bodies()
-	if !arr.is_empty():
-		get_parent().change_state()
+	if arr.size()>0:
+		get_parent().change_state(1)
 		return
+	
 	monster.velocity=direct*SPEED
 	monster.velocity.y=gravity
 	monster.move_and_slide()
+
+func exit():
+	print("exit")
+	ani.stop()
+	print("animation is stoped")

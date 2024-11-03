@@ -14,8 +14,8 @@ position = Vector2(593, 554)
 shape = SubResource("RectangleShape2D_hkigm")
 
 [node name="atkTest" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(1510, 475)
+position = Vector2(1343, 483)
 shape = SubResource("RectangleShape2D_hkigm")
 
 [node name="近战敌人" parent="." instance=ExtResource("1_5a6hc")]
-position = Vector2(499, 500)
+position = Vector2(519, 493)

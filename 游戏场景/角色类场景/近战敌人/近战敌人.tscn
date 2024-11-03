@@ -261,7 +261,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1u4qe"]
-size = Vector2(12, 41.5)
+size = Vector2(17, 50.5)
 
 [sub_resource type="Animation" id="Animation_hfw76"]
 resource_name = "run"
@@ -281,14 +281,28 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_jlxdr"]
-resource_name = "tak1"
+resource_name = "atk1"
 tracks/0/type = "method"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/path = NodePath("FSM/Atk")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
+"times": PackedFloat32Array(0.6),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"atk_check"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "values": [{
@@ -299,8 +313,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6ea5u"]
 _data = {
-"run": SubResource("Animation_hfw76"),
-"tak1": SubResource("Animation_jlxdr")
+"atk1": SubResource("Animation_jlxdr"),
+"run": SubResource("Animation_hfw76")
 }
 
 [node name="近战敌人" type="CharacterBody2D"]
@@ -311,7 +325,7 @@ animation = &"atk1"
 offset = Vector2(0, -40)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(2, -0.75)
+position = Vector2(4.5, 3.75)
 shape = SubResource("RectangleShape2D_1u4qe")
 
 [node name="RightDownCast" type="RayCast2D" parent="."]
@@ -328,8 +342,16 @@ position = Vector2(-20, 0)
 polygon = PackedVector2Array(21, 19, 22, -13, 16, -28, -1, -40, 0, -62, 29, -57, 54, -24, 54, 15, 44, 23, 20, 23)
 
 [node name="A2l" type="Area2D" parent="AttackCheck"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A2l"]
+polygon = PackedVector2Array(0, -11, -8, -19, -47, -15, -57, 3, -44, 12, -30, 20, 6, 10)
 
 [node name="A2r" type="Area2D" parent="AttackCheck"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A2r"]
+polygon = PackedVector2Array(-3, -42, 17, -22, 25, 9, -3, 19, 49, 15, 68, 6, 79, -10, 60, -24, 44, -35, 21, -59, 1, -62)
 
 [node name="FSM" type="Node" parent="."]
 script = ExtResource("58_nfsr6")
@@ -340,7 +362,13 @@ script = ExtResource("59_dft0y")
 [node name="Atk" type="Node" parent="FSM"]
 script = ExtResource("60_fvcf0")
 
+[node name="Timer" type="Timer" parent="FSM/Atk"]
+wait_time = 0.25
+one_shot = true
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 "": SubResource("AnimationLibrary_6ea5u")
 }
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Atk" method="_on_animated_sprite_2d_animation_finished"]
